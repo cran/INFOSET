@@ -1,0 +1,17 @@
+9538aabfdd4519173c2d5af83fb0aa00 *DESCRIPTION
+fc21abc08b6595754b4e337ab4f80e48 *NAMESPACE
+9dce12f1a967f478a28e2751d656726b *R/data.R
+090d64ce214b348541b903d3505d9557 *R/hello.R
+7e768d6ba1af5b514c90484bdee9612d *R/my_functions.R
+bba684e228acc053a04ffe581c974c06 *data/asset.label.rda
+5ec69bfd691cd4fe89b77809de963da7 *data/sample.data.rda
+66c1cab8fcf11ed6c74666188db86b31 *data/sample.data.ts.rda
+e713e012d8a068eab05ab46ca1d0de51 *man/asset.label.Rd
+dc22fb990d21d43619c39fe3e503f6f2 *man/g_ret.Rd
+5fa92b6f1aafae23e3f75fe6ace3f83a *man/infoset.Rd
+7ba467b2f8286e56fb6168d3d762e360 *man/sample.data.Rd
+3368fde408e33b5251da056de95107aa *man/sample.data.ts.Rd
+b252d60af698494f32cd7bcbb4e949aa *man/tail_mixture.Rd
+3a34e0831d0bab0fd5d045a39f77fd85 *tests/testthat.R
+818c79f41c0b74b82cddea7cc17fd238 *tests/testthat/Rplots.pdf
+269cee02ec1e017e8d2a032f4316ea59 *tests/testthat/test-my_functions.R

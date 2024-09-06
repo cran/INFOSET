@@ -1,10 +1,14 @@
 Package: INFOSET
 Type: Package
 Title: Computing a New Informative Distribution Set of Asset Returns
-Version: 4.0.5
+Version: 4.0.6
 Authors@R: 
-    person("Gloria", "Polinesi", , "g.polinesi@staff.univpm.it", role = c("aut", "cre"))
-Author: Gloria Polinesi [aut, cre]
+    c(person("Gloria", "Polinesi", , "g.polinesi@staff.univpm.it", role = c("aut", "cre")),
+    person("Francesca", "Mariani", role = "aut"),
+             person("Maria Cristina", "Recchioni", role = "aut"))
+Author: Gloria Polinesi [aut, cre],
+  Francesca Mariani [aut],
+  Maria Cristina Recchioni [aut]
 Maintainer: Gloria Polinesi <g.polinesi@staff.univpm.it>
 Description: Estimation of the most-left informative set of gross returns 
              (i.e., the informative set).
@@ -36,6 +40,6 @@ RoxygenNote: 7.3.2
 Suggests: testthat (>= 3.0.0)
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2024-09-03 14:18:14 UTC; Utente
+Packaged: 2024-09-06 06:44:07 UTC; Utente
 Repository: CRAN
-Date/Publication: 2024-09-05 17:00:02 UTC
+Date/Publication: 2024-09-06 13:00:09 UTC

@@ -4,7 +4,7 @@
 \alias{tail_mixture}
 \title{Function to find the most-left distribution set.}
 \usage{
-tail_mixture(y, shift, n_it)
+tail_mixture(y, shift, n_it, plot)
 }
 \arguments{
 \item{y}{vector or data frame}
@@ -12,6 +12,8 @@ tail_mixture(y, shift, n_it)
 \item{shift}{double}
 
 \item{n_it}{integer}
+
+\item{plot}{option}
 }
 \value{
 data object

@@ -1,7 +1,7 @@
 Package: INFOSET
 Type: Package
 Title: Computing a New Informative Distribution Set of Asset Returns
-Version: 4.0.6
+Version: 4.1
 Authors@R: 
     c(person("Gloria", "Polinesi", , "g.polinesi@staff.univpm.it", role = c("aut", "cre")),
     person("Francesca", "Mariani", role = "aut"),
@@ -30,6 +30,11 @@ Description: Estimation of the most-left informative set of gross returns
              The outcome encompasses parameters of the leftmost mixture 
              distributions and change points of the
              analyzed financial time series.
+             The functionalities of the INFOSET package include: (i) modelling asset distribution
+             detecting the parameters which describe left tail behaviour (infoset function), (ii) clustering, (iii) labeling of the financial
+             series for predictive and classification purposes through a Left Risk measure based on the first change point (LR_cp function)
+             (iv) portfolio construction (ptf_construction function).
+             The package also provide a specific function to construct rolling windows of different length size and overlapping time.
 License: GPL (>= 2)
 Encoding: UTF-8
 LazyData: true
@@ -37,9 +42,10 @@ Imports: Matrix, colorspace, dendextend, quadprog, mixtools, stats,
         graphics
 Depends: R (>= 2.10)
 RoxygenNote: 7.3.2
-Suggests: testthat (>= 3.0.0)
+Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 Config/testthat/edition: 3
+VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2024-09-06 06:44:07 UTC; Utente
+Packaged: 2024-11-23 09:48:17 UTC; Utente
 Repository: CRAN
-Date/Publication: 2024-09-06 13:00:09 UTC
+Date/Publication: 2024-11-23 15:20:12 UTC

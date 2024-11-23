@@ -1,0 +1,27 @@
+---
+title: "Vignettes from package 'INFOSET'"
+author: "Gloria Polinesi"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Vignettes from package 'INFOSET'}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+# Introduction
+
+This vignette includes an external PDF document. You can view the PDF here:
+
+[Download the PDF](../doc/INFOSET_vignette.pdf)
+
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(INFOSET)
+```

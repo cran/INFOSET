@@ -1,7 +1,7 @@
 Package: INFOSET
 Type: Package
 Title: Computing a New Informative Distribution Set of Asset Returns
-Version: 4.1
+Version: 4.1.1
 Authors@R: 
     c(person("Gloria", "Polinesi", , "g.polinesi@staff.univpm.it", role = c("aut", "cre")),
     person("Francesca", "Mariani", role = "aut"),
@@ -41,11 +41,11 @@ LazyData: true
 Imports: Matrix, colorspace, dendextend, quadprog, mixtools, stats,
         graphics
 Depends: R (>= 2.10)
-RoxygenNote: 7.3.2
+RoxygenNote: 7.3.3
 Suggests: knitr, rmarkdown, testthat (>= 3.0.0)
 Config/testthat/edition: 3
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2024-11-23 09:48:17 UTC; Utente
+Packaged: 2026-02-11 15:32:57 UTC; Utente
 Repository: CRAN
-Date/Publication: 2024-11-23 15:20:12 UTC
+Date/Publication: 2026-02-11 15:50:02 UTC
